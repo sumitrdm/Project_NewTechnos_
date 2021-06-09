@@ -5,15 +5,14 @@ video {
     height: 100%;
     position: fixed;
     z-index: -1; */
-     position: absolute;
-     width: 100%;
-     left:50%;
-     top: 50%;
-     height: 100%;
-     object-fit: cover;
-     transform: translate(-50%,-50%);
-     z-index:-1;   
-
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 .hero-container {
@@ -44,20 +43,19 @@ video {
 
 .hero-btns {
     margin-top: 32px;
-    
 }
-.hero-btns button{
-color: white;
-font-size:20px;
-border: 1px solid white;
+
+.hero-btns button {
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
 }
-.hero-btns button:hover{
+
+.hero-btns button:hover {
     color: black;
-    font-size:20px;
-    background-color:white
-    
-    }
-    
+    font-size: 20px;
+    background-color: white
+}
 
 .fa-play-circle {
     margin-left: 4px;

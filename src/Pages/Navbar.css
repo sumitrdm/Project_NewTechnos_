@@ -1,99 +1,93 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
-    position: absolute;
+
+.Navbar {
+    position: sticky;
     top: 0;
-    left: 0;
-    display: flex;
+    z-index: 999;
     justify-content: space-around;
     align-items: center;
     height: 75px;
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 0%);
-    color: white;
-    
-    
+    color: blue;
+    padding: 20px;
 }
-.logo{
-font-size: 30px;    
 
+.logo {
+    font-size: 30px;
 }
-.nav-links
-{
-     display: flex;
+
+.Navbar,
+ul {
+    display: flex;
     justify-content: flex-end;
-    list-style:none;
-    width: 75%;
+    list-style: none;
+    width: 100%;
 }
+
 .home,
 .resources,
 .contact,
 .blog,
 .services,
-.signup
-{
+.signup {
     text-decoration: none;
-    color:white;
+    color: white;
     font-size: 20px;
     padding: 10px 20px;
-    margin: 0 10px;
+    margin: 10px 10px;
     cursor: pointer;
 }
-.signup
-{
-    border:1px solid white;
+
+.signup {
+    border: 1px solid white;
     border-radius: 5px;
 }
 
-.mobile-menu-icon
-{
-    display:none;
+.mobile-menu-icon {
+    display: none;
 }
 
-@media screen and (max-width: 780px)
-{
-    .logo{
+@media screen and (max-width: 780px) {
+    .logo {
         display: flex;
         position: absolute;
-        top:15px;
-        left:15px;
+        top: 15px;
+        left: 15px;
     }
-    .nav-links{
+    .nav-links {
         display: none;
     }
-    .nav-links-mobile
-    {
+    .nav-links-mobile {
         position: absolute;
         display: block;
-        list-style:none;
+        list-style: none;
         background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 0%);
         left: 0;
-        top:75px;
-        transition:all 0.5s ease-out;
-        width:100%;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
     }
     .home,
     .services,
     .resources,
     .contact,
     .signup,
-    .blog
-    {
-        color:white;
+    .blog {
+        color: white;
         text-align: center;
         padding: 32px;
         width: 100%;
-        transition:all 0.5s ease;
+        transition: all 0.5s ease;
     }
-
-    .signup{
-        border:none;
+    .signup {
+        border: none;
     }
-    .mobile-menu-icon
-    {
-        display:block;
+    .mobile-menu-icon {
+        display: block;
         position: absolute;
         font-size: 30px;
         color: white;
@@ -103,5 +97,4 @@ font-size: 30px;
         top: 15px;
         right: 25px;
     }
-
 }

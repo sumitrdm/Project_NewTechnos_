@@ -6,7 +6,7 @@ function Navbar()
         const [isMobile,setIsMobile] = useState(false);
 
     return( 
-    <nav className="navbar">
+    <nav className="Navbar">
             {/* 
             <Link to="/">
             <img className="logo" src="/images/1.png"></img>
