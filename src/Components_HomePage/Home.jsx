@@ -10,6 +10,9 @@ function Home()
 <div>
     <HeroSection/>
     <Blog_view/>
+
+    
+    <Footer/>
     
 
     </div>
