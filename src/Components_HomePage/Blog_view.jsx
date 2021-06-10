@@ -2,6 +2,7 @@ import React from "react";
 import "./Blog_view.css";
 import {Link, Links} from "react-router-dom";
 
+
 function Blog_view()
 {
     return (
@@ -12,7 +13,7 @@ function Blog_view()
       <h1>Blog</h1>
   <main class="grid">
     <article>
-      <img src="/images/app.jpg" alt="Sample photo"/>
+      <img src="./images/app.jpg" alt="Sample photo"/>
       <div class="text">
         <h3>App Development</h3>
         <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones.</p>
@@ -50,13 +51,7 @@ function Blog_view()
   
   </main>
 </div>
-
-
-
-
-
-              
-          </div>
+</div>
 
 
 

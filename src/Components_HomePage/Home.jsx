@@ -8,8 +8,14 @@ function Home()
 {
     return (
 <div>
+
+    
+
     <HeroSection/>
     <Blog_view/>
+    <Services_view />
+
+    
 
     
     <Footer/>

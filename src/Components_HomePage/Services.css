@@ -1,0 +1,14 @@
+.heading {
+    text-align: center;
+    margin-bottom: 5px;
+    color: hsl(205, 86%, 17%);
+}
+
+.underline {
+    width: 15rem;
+    height: 0.25rem;
+    background: var(--clr-gold);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
