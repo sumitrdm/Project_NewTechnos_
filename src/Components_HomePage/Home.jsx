@@ -16,6 +16,7 @@ function Home()
     <Blog_view/>
     <Services_view />
     <Contact/>
+    <Resources_view />
 
     
     
