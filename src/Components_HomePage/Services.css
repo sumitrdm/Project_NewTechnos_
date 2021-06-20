@@ -1,5 +1,5 @@
 .heading {
-    text-align: center;
+    text-align: center !important;
     margin-bottom: 5px;
     color: hsl(205, 86%, 17%);
 }
