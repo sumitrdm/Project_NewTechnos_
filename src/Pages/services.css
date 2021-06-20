@@ -1,20 +1,19 @@
-/* :root
-{
-    --clr-primary:#651fff;
-    --clr-gray:#37474f;
-    --clr-gray-light:#b0bec5;
+:root {
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
 }
-*
-{
+
+* {
     box-sizing: border-box;
-    font-family: "Open sans",sans-serif;
+    font-family: "Open sans", sans-serif;
     margin: 0;
     padding: 0;
 }
-body
-{
-    color:var(--clr-gray);
-} */
+
+body {
+    color: var(--clr-gray);
+}
 
 .wrapper-grid {
     margin: 5rem;
