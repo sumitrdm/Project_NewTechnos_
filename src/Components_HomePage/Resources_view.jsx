@@ -1,6 +1,6 @@
 import React from "react";
 import './Resources.css';
-function Resources_view()
+function Resources_View()
 {
     return(
     <>
@@ -43,4 +43,4 @@ function Resources_view()
         </div>
     </>
 )};
-export default Resources_view;
+export default Resources_View;

@@ -1,8 +1,8 @@
 import React from "react";
 import HeroSection from "./HeroSection"
 import Blog_view from "./Blog_view";
-import Services_view from "./Services_view";
-import Resources_view from "./Resources_view";
+import Services_View from "./Services_View";
+import Resources_View from "./Resources_View";
 import Contact from "./Contact";
 import Footer from "./Footer";
 function Home()
@@ -14,12 +14,9 @@ function Home()
 
     <HeroSection/>
     <Blog_view/>
-    <Services_view />
+    <Services_View />
     <Contact/>
-    <Resources_view />
-
-    
-    
+    <Resources_View />
     <Footer/>
     
 

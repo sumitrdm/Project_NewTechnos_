@@ -4,7 +4,7 @@ import './Services.css';
 
 import {ServicesContainer,ServicesWrapper,ServicesH1,ServicesH2,ServicesIcon,ServicesP,ServicesCard} from './serviceElement';
 
-function Services_view()
+function Services_View()
 {
     return (
         <>
@@ -50,4 +50,4 @@ function Services_view()
     
   )
 }
-export default Services_view;
+export default Services_View;
