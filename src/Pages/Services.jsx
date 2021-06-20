@@ -58,11 +58,6 @@ function Services()
 
     </div>
 
-    
-
-
-
-
     </>
     
 }
