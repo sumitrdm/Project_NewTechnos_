@@ -1,0 +1,53 @@
+.underline {
+    width: 15rem;
+    height: 0.25rem;
+    background: gold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.mains {
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: lightgray;
+}
+
+.heads {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.heading {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.mains a {
+    text-decoration: none;
+}
+
+p:hover {
+    font-size: 28px;
+}
+
+ol {
+    color: #ccc;
+    list-style-type: none;
+}
+
+ol li {
+    position: relative;
+    font: 30px/1.5 Helvetica, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+li p {
+    font-size: 25px;
+    padding-left: 60px;
+    color: #555;
+}
+
+span {
+    position: absolute;
+}
