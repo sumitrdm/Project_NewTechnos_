@@ -1,15 +1,15 @@
 import React from "react";
 import "./Blog_view.css";
-import {Link, Links} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 function Blog_view()
 {
     return (
-        <div>
+        <React.Fragment>
             
 
-      <div class="containerr">
+      <div class="containering">
       <h1>Blog</h1>
   <main class="grid">
     <article>
@@ -51,7 +51,7 @@ function Blog_view()
   
   </main>
 </div>
-</div>
+</React.Fragment>
 
 
 

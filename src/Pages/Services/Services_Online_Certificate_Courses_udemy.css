@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading
+{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.main-heading
+{
+    margin: 80px 300px;
+}
+.main-heading h2
+{
+    color:#27A721;
+    margin-bottom: 10px;
+}
+.main-headingp
+{
+    text-align: justify;
+    font-size: 18px;
+    color:black;
+    margin-bottom:40px;
+}
+.centerh
+{
+    text-align: center;
+    font-weight:bold;
+}
+.listing
+{
+    margin: 0;
+    padding: 0;
+    color:black;    
+      
+}
+.udemyul
+{
+ text-align: center;
+ font-weight:bold;
+ font-size:18px;
+
+}
+
+.insideul
+{
+    margin-bottom: 20px;
+}
+@media screen and (max-width:760px)
+{
+    .main-heading
+{
+    margin: 20px 30px;
+}
+
+
+
+}

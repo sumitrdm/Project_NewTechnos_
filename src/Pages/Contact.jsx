@@ -1,6 +1,8 @@
 import React from "react";
 function Contact()
 {
-    return <h1>I am contact</h1>
+    return <React.Fragment>
+        <h1>hello</h1>
+    </React.Fragment>
 }
 export default Contact;

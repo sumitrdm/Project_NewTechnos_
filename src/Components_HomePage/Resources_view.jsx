@@ -9,13 +9,13 @@ function Resources_View()
         </div>
         <div className='main'>
         <div className='items'>
-            <ol>
+            <ol className="resourceolll">
                 <a href ='' target='_blank' ><li>Roadmap of placement</li></a>
             </ol>
             
         </div>
         <div className='items'>
-            <ol>
+            <ol className="resourceolll">
                 
                 <a href ='' target='_blank' ><li>Roadmap of placement</li></a>
             </ol>
@@ -23,14 +23,14 @@ function Resources_View()
         </div>
 
         <div className='items'>
-            <ol>
+            <ol className="resourceolll">
                 
                 <a href ='' target='_blank' ><li>Roadmap of placement</li></a>
             </ol>
             
         </div>
         <div className='items'>
-            <ol>
+            <ol className="resourceolll">
                 
                 <a href ='' target='_blank' ><li>Roadmap of placement</li></a>
             </ol>

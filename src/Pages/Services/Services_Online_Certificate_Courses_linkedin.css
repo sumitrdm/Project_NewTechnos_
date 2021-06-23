@@ -35,7 +35,7 @@ body {
 .profile-img {
     width: 10rem;
     clip-path: circle(60px at center);
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
     margin-bottom: 1.5rem;
 }
 .newlink
@@ -65,7 +65,7 @@ body {
     font-size: 1rem;
     font-weight: bold;
     color: white;
-    background-color: var(--clr-primary) !important;
+    background-color: var(--clr-primary);
     padding: 1rem;
     position: absolute;
     bottom: 0;
@@ -74,7 +74,7 @@ body {
 }
 
 .btnn:hover {
-    background-color: #FF5200;
+    background-color: #FF6701 !important;
 }
 
 @media screen and (min-width: 500px) {

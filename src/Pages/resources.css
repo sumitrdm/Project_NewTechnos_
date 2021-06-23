@@ -31,12 +31,12 @@
     font-size: 28px;
 }
 
-ol {
+.resourceol {
     color: #ccc;
     list-style-type: none;
 }
 
-ol li {
+.resourceol li {
     position: relative;
     font: 30px/1.5 Helvetica, Verdana, sans-serif;
     margin-bottom: 20px;
