@@ -7,12 +7,12 @@ function Navbar()
 
     return( 
     <nav className="Navbar">
-            {/* 
+            
             <Link to="/">
-            <img className="logo" src="/images/1.png"></img>
+            <img  style={{height: "90px"}} className="logo" src="images/online.jpg"></img>
 
-            </Link> */}
-            <h3 className="logo">Logo</h3>
+            </Link>
+            {/* <h3 className="logo">Logo</h3> */}
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
             onClick={() => {setIsMobile(false)}} >
             <Link to="/" className="home">

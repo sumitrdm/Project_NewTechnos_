@@ -5,7 +5,7 @@ function Contact()
 return(
     <>
      
-<div className="main_container">
+<div className="main_containerr">
   
     <div className="row">
      <div className="col-md-8"> 
