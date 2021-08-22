@@ -8,9 +8,13 @@ function Navbar()
     return( 
     <nav className="Navbar">
             
-            <Link to="/">
+            {/* <Link to="/">
             <img  style={{height: "90px"}} className="logo" src="images/online.jpg"></img>
 
+            </Link> */}
+            <Link to='/' className='social-logo'>
+              NewTech<span className='nos'>nos</span>
+              <i class='fab fa-typo3' />
             </Link>
             {/* <h3 className="logo">Logo</h3> */}
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"}

@@ -37,10 +37,7 @@ function Resources_View()
             </ol>
             
         </div>
-        <div className='center'>
-        <button className='btn btn-primary btn--outline'>See More</button>
-        </div>
-
+   
         </div>
     </>
 )};
