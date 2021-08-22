@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import HeroSection from "./HeroSection"
 import Blog_view from "./Blog_view";

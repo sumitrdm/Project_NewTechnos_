@@ -1,8 +1,8 @@
 import React from "react";
 import './Services.css';
-import {Link, Links} from "react-router-dom";
+import {Link} from "react-router-dom";
 
-import {ServicesContainer,ServicesWrapper,ServicesH1,ServicesH2,ServicesIcon,ServicesP,ServicesCard} from './serviceElement';
+import {ServicesContainer,ServicesWrapper,ServicesH2,ServicesIcon,ServicesP,ServicesCard} from './serviceElement';
 
 function Services_View()
 {
